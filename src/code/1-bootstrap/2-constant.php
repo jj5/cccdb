@@ -1,0 +1,54 @@
+<?php
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2024-10-21 jj5 - trace load if enabled...
+//
+
+if ( defined( 'APP_TRACE_LOAD' ) && APP_TRACE_LOAD ) {
+
+  error_log( "loading: " . __FILE__ );
+
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2024-10-21 jj5 - load dependencies...
+//
+
+require_once __DIR__ . '/1-library.php';
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2024-10-21 jj5 - define version constants...
+//
+
+require_once __DIR__ . '/../../../inc/version.php';
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2024-10-21 jj5 - path info...
+//
+
+define( 'CCCDB_PATH', realpath( __DIR__ . '/../../../' ) );
+define( 'CCCDB_CONFIG_FILE', 'config.php' );
+define( 'CCCDB_CONFIG_PATH', CCCDB_PATH . '/' . CCCDB_CONFIG_FILE );
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2024-10-21 jj5 - maintainer info...
+//
+
+define( 'CCCDB_MAINTAINER_USERNAME',  'jj5' );
+define( 'CCCDB_MAINTAINER_EMAIL',     'jj5@jj5.net' );
+define( 'CCCDB_MAINTAINER_NAME',      'John Elliot V');
+define(
+  'CCCDB_MAINTAINER',
+  CCCDB_MAINTAINER_NAME . ' <' . CCCDB_MAINTAINER_EMAIL . '>'
+);
+
+define(
+  'CCCDB_PLEASE_INFORM',
+  'please let the maintainer know: ' . CCCDB_MAINTAINER
+);
+
