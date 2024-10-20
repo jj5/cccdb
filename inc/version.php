@@ -6,16 +6,16 @@
 define( 'CCCDB_NAME', 'CCC Database' );
 define( 'CCCDB_CODE', 'cccdb' );
 
-//define( 'CCCDB_VERSION', '0.1.5' );
+//define( 'CCCDB_VERSION', '0.1.7' );
 define( 'CCCDB_VERSION_MAJOR', 0 );
 define( 'CCCDB_VERSION_MINOR', 1 );
-define( 'CCCDB_VERSION_PATCH', 5 );
+define( 'CCCDB_VERSION_PATCH', 7 );
 
 define(
   'CCCDB_SVN_DATE',
-  '$Date: 2024-10-21 09:07:43 +1100 (Mon, 21 Oct 2024) $'
+  '$Date: 2024-10-21 10:08:58 +1100 (Mon, 21 Oct 2024) $'
 );
-define( 'CCCDB_SVN_REVISION', '$Revision: 164171779 $' );
+define( 'CCCDB_SVN_REVISION', '$Revision: 174893158 $' );
 define( 'CCCDB_SVN_AUTHOR', '$Author: jj5 $' );
 
-define( 'CCCDB_GIT_DATE', '2024-10-21 09:07:43 +1100 (Mon, 21 Oct 2024)' );
+define( 'CCCDB_GIT_DATE', '2024-10-21 10:08:58 +1100 (Mon, 21 Oct 2024)' );
