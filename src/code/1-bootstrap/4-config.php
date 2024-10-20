@@ -16,7 +16,7 @@ if ( defined( 'APP_TRACE_LOAD' ) && APP_TRACE_LOAD ) {
 // 2024-10-21 jj5 - load dependencies...
 //
 
-require_once __DIR__ . '/3-lookup.php';
+require_once __DIR__ . '/3-flags.php';
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
