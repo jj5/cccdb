@@ -30,5 +30,4 @@ mud_define_app( 'CCCDB' );
 // 2024-10-21 jj5 - define service locators...
 //
 
-//function app_raw( $set = false ) : AppRaw { return mud_raw( $set ); }
-
+function app( AppController|false $set = false ) : AppController { return mud_controller( $set ); }
