@@ -5,13 +5,13 @@
 export CCCDB_NAME='CCC Database';
 export CCCDB_CODE='cccdb';
 
-export CCCDB_VERSION='0.1.9';
+export CCCDB_VERSION='0.1.11';
 export CCCDB_VERSION_MAJOR='0';
 export CCCDB_VERSION_MINOR='1';
-export CCCDB_VERSION_PATCH='9';
+export CCCDB_VERSION_PATCH='11';
 
-export CCCDB_SVN_DATE='Date: 2024-10-21 12:42:36 +1100 (Mon, 21 Oct 2024)';
-export CCCDB_SVN_REVISION='Revision: 116019784';
+export CCCDB_SVN_DATE='Date: 2024-10-21 13:00:07 +1100 (Mon, 21 Oct 2024)';
+export CCCDB_SVN_REVISION='Revision: 58366181';
 export CCCDB_SVN_AUTHOR='Author: jj5';
 
-export CCCDB_GIT_DATE='2024-10-21 12:42:36 +1100 (Mon, 21 Oct 2024)';
+export CCCDB_GIT_DATE='2024-10-21 13:00:07 +1100 (Mon, 21 Oct 2024)';
